@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+ body {
+    background-color: gray;
+} 
+h3 {
+    color: green;
+}
+.azul {
+    color: blue;
+}
+.rojo {
+    color: red;
+}

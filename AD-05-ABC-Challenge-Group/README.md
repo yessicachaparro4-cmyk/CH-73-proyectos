@@ -1,5 +1,2 @@
-# ABC Challenge Group
-
-Práctica AD-05 de Desarrollo de Aplicaciones.
-
-Proyecto del abecedario desarrollado con HTML, CSS y JavaScript.
+# ad-l3
+AD-05-1 ABC-Challenge-Group
