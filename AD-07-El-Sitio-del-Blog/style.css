@@ -1,0 +1,168 @@
+
+/* FLORES ETERNAS - DISEÑO GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #503443;
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #a83f70;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 18px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 25px;
+}
+
+.menu a:hover {
+    background-color: #f7c6d9;
+    color: #71304f;
+}
+
+/* PRESENTACIÓN */
+
+main {
+    flex: 1;
+}
+
+.bienvenida {
+    text-align: center;
+    padding: 75px 20px;
+    background: linear-gradient(135deg, #ffe0ed, #fff7fa);
+}
+
+.bienvenida h1 {
+    font-size: 42px;
+    color: #a83f70;
+    margin-bottom: 15px;
+}
+
+.bienvenida h2 {
+    font-size: 25px;
+    color: #bd618b;
+    margin-bottom: 20px;
+}
+
+.bienvenida p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* SECCIONES */
+
+.contenido {
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 45px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(168, 63, 112, 0.10);
+}
+
+.contenido h2 {
+    color: #a83f70;
+    font-size: 27px;
+    margin: 25px 0 15px;
+}
+
+.contenido h3 {
+    color: #bd618b;
+    margin: 20px 0 8px;
+}
+
+.contenido p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* FOTOGRAFÍAS */
+
+.contenido img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #a83f70;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+/* DISEÑO PARA CELULARES */
+
+@media (max-width: 600px) {
+    .menu {
+        gap: 5px;
+        padding: 12px 5px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .bienvenida {
+        padding: 45px 15px;
+    }
+
+    .bienvenida h1 {
+        font-size: 30px;
+    }
+
+    .bienvenida h2 {
+        font-size: 20px;
+    }
+
+    .contenido {
+        margin: 20px 12px;
+        padding: 25px 20px;
+    }
+}
+
+
