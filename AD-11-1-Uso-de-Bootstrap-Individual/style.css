@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Colores de los botones */
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-success {
+  background-color: #198754;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Texto rojo del centro */
+.text-danger {
+  color: #dc3545 !important;
+}

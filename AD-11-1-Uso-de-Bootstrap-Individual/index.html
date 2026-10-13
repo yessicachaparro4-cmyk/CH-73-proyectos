@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AD-11 Uso de Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Nuestro CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <h1 class="text-center mt-4">
+      Uso de Bootstrap
+    </h1>
+
+    <!-- Tarea 3: Botones de colores -->
+    <div class="my-4">
+
+      <button type="button"
+        class="btn btn-primary"
+        onclick="mostrarMensaje('azul')">
+        Botón azul
+      </button>
+
+      <button type="button"
+        class="btn btn-success"
+        onclick="mostrarMensaje('verde')">
+        Botón verde
+      </button>
+
+      <button type="button"
+        class="btn btn-danger"
+        onclick="mostrarMensaje('rojo')">
+        Botón rojo
+      </button>
+
+    </div>
+
+    <!-- Tarea 4: Alineación de texto -->
+    <p class="text-start">
+      Izquierda
+    </p>
+
+    <p class="text-center text-danger">
+      Centro
+    </p>
+
+    <p class="text-end">
+      Derecha
+    </p>
+
+    <!-- Tarea 5: Tarjeta de frutas -->
+    <div class="card mt-4" style="width: 18rem;">
+
+      <div class="card-header">
+        Hoja de ruta
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1610832958506-aa56368176cf"
+        class="card-img-top"
+        alt="Variedad de frutas"
+      >
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Manzana</li>
+        <li class="list-group-item">Naranja</li>
+        <li class="list-group-item">Plátano</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Funciones de los botones -->
+  <script>
+    function mostrarMensaje(color) {
+      alert("¡Hiciste clic en el botón " + color + "!");
+    }
+  </script>
+
+</body>
+</html>
