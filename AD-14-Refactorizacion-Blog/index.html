@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog educativo sobre tecnología y programación.">
+    <title>TechBlog | Inicio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">💻 TechBlog</h1>
+            <p class="lead">
+                Explorando el mundo de la tecnología
+                y la programación
+            </p>
+            <p>
+                Aprende, descubre y desarrolla
+                nuevas habilidades digitales.
+            </p>
+        </div>
+    </header>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                TechBlog
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            Quiénes somos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <main class="container-fluid my-4">
+        <div class="row g-3">
+
+            <!-- PUBLICIDAD -->
+            <aside class="col-md-2">
+                <div class="p-3 bg-light border rounded h-100">
+                    <h4>Publicidad</h4>
+                    <p class="text-muted small">
+                        Espacio reservado para futuros anuncios.
+                    </p>
+                </div>
+            </aside>
+
+            <!-- COLUMNA CENTRAL -->
+            <section class="col-md-8">
+
+                <!-- BIENVENIDA -->
+                <div class="p-4 bg-light border rounded mb-4">
+                    <h2>Bienvenidos a TechBlog</h2>
+
+                    <p class="lead">
+                        Un espacio para descubrir el
+                        fascinante mundo de la programación.
+                    </p>
+
+                    <p>
+                        La tecnología está transformando
+                        nuestra manera de vivir, trabajar
+                        y comunicarnos.
+                    </p>
+
+                    <p>
+                        En este blog encontrarás información
+                        sobre HTML, CSS, JavaScript,
+                        Bootstrap y herramientas digitales
+                        utilizadas en el desarrollo web.
+                    </p>
+
+                    <div class="alert alert-primary">
+                        🚀 ¡Nunca es tarde para aprender
+                        a programar!
+                    </div>
+                </div>
+
+                <!-- ARTÍCULOS -->
+                <h2 class="text-center mb-4">
+                    Artículos de tecnología
+                </h2>
+
+                <div class="row g-4">
+
+                    <!-- HTML -->
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img
+                                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
+                                class="card-img-top"
+                                alt="Código de programación">
+
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    ¿Qué es HTML?
+                                </h3>
+
+                                <p class="card-text">
+                                    HTML es el lenguaje
+                                    utilizado para estructurar
+                                    el contenido de las páginas
+                                    web mediante etiquetas.
+                                </p>
+
+                                <a href="https://developer.mozilla.org/es/docs/Web/HTML"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="btn btn-primary">
+                                    Leer más
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img
+                                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                                class="card-img-top"
+                                alt="Computadora para desarrollo web">
+
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    Aprende CSS
+                                </h3>
+
+                                <p class="card-text">
+                                    CSS permite crear diseños
+                                    atractivos utilizando
+                                    colores, fuentes, tamaños,
+                                    espacios y animaciones.
+                                </p>
+
+                                <a href="https://developer.mozilla.org/es/docs/Web/CSS"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="btn btn-primary">
+                                    Leer más
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- JAVASCRIPT -->
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img
+                                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+                                class="card-img-top"
+                                alt="Pantalla con código">
+
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    JavaScript
+                                </h3>
+
+                                <p class="card-text">
+                                    JavaScript permite crear
+                                    experiencias interactivas,
+                                    validar formularios y
+                                    modificar contenido web.
+                                </p>
+
+                                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="btn btn-primary">
+                                    Leer más
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- BOOTSTRAP -->
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img
+                                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+                                class="card-img-top"
+                                alt="Editor de código">
+
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    Bootstrap
+                                </h3>
+
+                                <p class="card-text">
+                                    Bootstrap facilita la
+                                    creación de sitios web
+                                    responsivos mediante
+                                    componentes y cuadrículas.
+                                </p>
+
+                                <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="btn btn-primary">
+                                    Leer más
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+                <!-- TECNOLOGÍAS -->
+                <div class="p-4 bg-light border rounded mt-4">
+                    <h2 class="text-center">
+                        Tecnologías del desarrollo web
+                    </h2>
+
+                    <p class="text-center">
+                        Herramientas esenciales para
+                        construir experiencias digitales.
+                    </p>
+
+                    <div class="text-center">
+                        <span class="badge bg-primary m-1 p-2">
+                            HTML5
+                        </span>
+                        <span class="badge bg-primary m-1 p-2">
+                            CSS3
+                        </span>
+                        <span class="badge bg-primary m-1 p-2">
+                            JavaScript
+                        </span>
+                        <span class="badge bg-primary m-1 p-2">
+                            Bootstrap
+                        </span>
+                        <span class="badge bg-primary m-1 p-2">
+                            GitHub
+                        </span>
+                    </div>
+                </div>
+
+                <!-- ENLACE FINAL -->
+                <div class="text-center p-4">
+                    <h2>¡Continúa aprendiendo!</h2>
+
+                    <p>
+                        Cada línea de código es una
+                        oportunidad para crecer.
+                    </p>
+
+                    <a href="about.html" class="btn btn-primary">
+                        Conoce TechBlog
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- NOTICIAS -->
+            <aside class="col-md-2">
+                <div class="p-3 bg-light border rounded h-100">
+                    <h4>Noticias</h4>
+                    <p class="text-muted small">
+                        Espacio reservado para futuras noticias.
+                    </p>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h4>💻 TechBlog</h4>
+            <p>
+                Explorando el mundo de la tecnología
+                y la programación.
+            </p>
+            <p>
+                Proyecto educativo de desarrollo web.
+            </p>
+            <p class="mb-0">
+                © 2026 TechBlog. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
